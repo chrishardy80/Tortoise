@@ -1,0 +1,142 @@
+/* Universal Styling */
+
+html {
+  font-size: 18px;
+}
+
+.sitecontainer {
+  display: flex;
+  width: 960px;
+  justify-content: center;
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+}
+
+/* Header Styling */
+
+header .imagecontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(../images/glasses-bg.png);
+  background-size: cover;
+  height: 30rem;
+  padding-top: 1rem;
+}
+
+header .sitecontainer.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header .navigation {
+  display: flex;
+  background-color: cadetblue;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1rem;
+  color: white;
+  width: 960px;
+}
+
+.logo img {
+  height: 1.5rem;
+  padding: 0 1rem;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+nav span {
+  padding: 0 1rem;
+}
+
+header .sitecontainer.tb {
+  margin-top: 10rem;
+
+}
+
+header .textbox span {
+  background-color: white;
+  font-weight: bold;
+  font-size: 2rem;
+
+}
+
+header .textbox {
+  display: flex;
+  padding: 1.5rem 1.5rem;
+  background-color: white;
+  position: relative;
+  left: 14rem;
+}
+
+/* Icons Styling */
+
+#icons {
+  display: flex;
+  justify-content: center;
+}
+
+.icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 8rem;
+  width: 5rem;
+  margin: 3rem;
+}
+
+.icon.one img {
+  width: 3.5rem;
+}
+
+.icon.two img {
+  width: 5rem;
+}
+
+.icon .textbox {
+  text-align: center;
+}
+
+#info {
+  display: flex;
+  justify-content: center;
+}
+
+.infobox {
+  width: 35%;
+  padding: 0 2.5%;
+}
+.infobox .infohead {
+  background-color: cadetblue;
+  color: white;
+  padding: 0.5rem 1.25rem;
+  width: 10rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+}
+
+footer .sitecontainer {
+  justify-content: left;
+  background-color: azure;
+  align-items: center;
+  padding: 4rem;
+}
+
+#copy img {
+  height: 1.5rem;
+  padding-right: 1rem;
+}
