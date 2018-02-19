@@ -140,3 +140,37 @@ footer .sitecontainer {
   height: 1.5rem;
   padding-right: 1rem;
 }
+
+@media only screen and (max-width: 1024px) {
+  .sitecontainer {
+    width: 100%;
+  }
+
+  header .navigation {
+    width: 100%;
+  }
+
+  header .textbox {
+    margin-right: 2rem;
+  }
+
+  header .sitecontainer.tb {
+    margin-top: 5rem;
+  }
+
+  header .imagecontainer {
+    height: 22rem;
+  }
+
+  header .textbox span {
+    font-size: 1.33rem;
+  }
+
+  header .textbox {
+    padding: 0.75rem 4rem;
+  }
+
+  footer {
+    width: 100%;
+  }
+}
