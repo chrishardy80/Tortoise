@@ -56,6 +56,10 @@ nav span {
   padding: 0 1rem;
 }
 
+nav .small {
+  display: none;
+}
+
 header .sitecontainer.tb {
   margin-top: 10rem;
 
@@ -127,13 +131,15 @@ footer {
   display: flex;
   justify-content: center;
   margin-top: 5rem;
+  background-color: azure;
+  padding: 4rem;
 }
 
 footer .sitecontainer {
   justify-content: left;
   background-color: azure;
   align-items: center;
-  padding: 4rem;
+
 }
 
 #copy img {
@@ -173,4 +179,95 @@ footer .sitecontainer {
   footer {
     width: 100%;
   }
+
+  header .imagecontainer {
+    padding-top: 0;
+  }
+
+  footer .sitecontainer {
+    padding: 0;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+
+  header .imagecontainer {
+    height: 17rem;
+  }
+
+  header .textbox {
+    width: 100%;
+    position: static;
+    padding: 1rem 0;
+    justify-content: center;
+  }
+
+  header .textbox span {
+    font-size: 1rem;
+  }
+
+  header .sitecontainer.tb {
+    margin-top: 9rem;
+  }
+
+  #icons .sitecontainer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .icon {
+    margin: 1.54rem 0;
+  }
+
+  .logo span {
+    display: none;
+  }
+
+  #icons {
+    margin: 3.77rem 0;
+  }
+
+  #info .sitecontainer {
+    flex-direction: column;
+  }
+
+  .infobox {
+    width: 100%;
+    padding: 0;
+  }
+
+  .infobox .infohead {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+
+  header .textbox {
+    margin-right: 0;
+  }
+
+  nav .big {
+    display: none;
+  }
+
+  nav .small {
+    display: flex;
+  }
+
+  #copy span {
+    display: none;
+  }
+
+  footer {
+    padding: 4rem 0;
+    margin-top: 0;
+  }
+
+  .infotext {
+    margin-bottom: 4rem;
+    font-size: 0.77rem;
+  }
+
 }
